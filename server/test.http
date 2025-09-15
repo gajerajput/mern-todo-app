@@ -1,0 +1,16 @@
+### Test server
+GET http://localhost:5000/api/test
+
+### Create todo
+POST http://localhost:5000/api/todos
+Content-Type: application/json
+
+{
+  "text": "Learn MERN stack"
+}
+
+### Get all todos
+GET http://localhost:5000/api/todos
+
+### Toggle todo completion (use your actual todo ID)
+PUT http://localhost:5000/api/todos/68c5d74bb9a521a5ce7cef39
